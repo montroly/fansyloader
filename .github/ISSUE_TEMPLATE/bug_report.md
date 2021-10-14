@@ -15,3 +15,10 @@ Before reporting a bug, please check if you are using the **latest version**.
  - OS: [e.g. windows]
  - Browser [e.g. chrome, firefox]
  - Auth [e.g. default, sideloading, proxy] 
+
+<!--
+**Logs**
+Logs are very helpful, but are not very anonymous.  
+To preserve your anonymity you should **not post logs here**!
+However, if you want to share your logs with me, send them with the issue number by mail to montroly@protonmail.com.
+--> 
