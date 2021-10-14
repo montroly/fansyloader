@@ -18,8 +18,8 @@ fansyloader is a simple program that downloads content for active subscriptions 
   ./fansyloader
   ```
 
-**Credits:** This project would not have been possible without the work of @hippothon, @OFfriend and @DIGITALCRIMINAL.
-They cleared many barriers during their work on [OnlyFans DataScraper](https://github.com/DIGITALCRIMINAL/OnlyFans).
+**Credits:** This project would not have been possible without the work of @hippothon, @OFfriend and @DIGITALCRIMINAL (±S).
+They cleared many barriers during their work on [OnlyFans DataScraper](https://github.com/DIGITALCRIMINALS/OnlyFans).
 
 ## Troubleshooting
 
