@@ -21,6 +21,12 @@ fansyloader is a simple program that downloads content for active subscriptions 
 **Credits:** This project would not have been possible without the work of @hippothon, @OFfriend and @DIGITALCRIMINAL.
 They cleared many barriers during their work on [OnlyFans DataScraper](https://github.com/DIGITALCRIMINAL/OnlyFans).
 
+## Troubleshooting
+
+After the download is started, only the progress bars and no error messages are displayed. 
+So if there are problems, you should look into the log file in the `config` directory. 
+Alternatively, `show_progress_bar` can be set to `false` in the configuration file.
+
 ## Doc
 
 * [FAQ](./FAQ.md)
