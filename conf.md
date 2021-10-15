@@ -4,6 +4,34 @@ fansyloader creates a folder `config` at the first start.
 In this folder you can find the configuration file `config.toml` and the log file `fansyloader.log`. 
 The configuration file can be opened and edited with any text editor.
 
+### Path
+
+The path variable can be used to set the folders in which the files are stored.
+
+* `{{.Provider.Key}}` onlyfans
+* `{{.Provider.Name}}` OnlyFans
+* `{{.Provider.Domain}}` onlyfans.com
+* `{{.Model.Name}}` Name of the Model
+* `{{.Model.Username}}` Username of the Model
+* `{{.ApiType}}` Through which api the data was loaded. (Example: `posts`, or `messages`)
+* `{{.Download.Id}}` The ID of the download. Useful because it can be used to create a unique file name.
+* `{{.Download.Ext}}` File extension of the file to be saved (Example: `.png`, `.mp4`)
+* `{{.Download.CreateTime}}` Time at which the download was uploaded to the provider.
+  * Can be formatted with `{{.Download.CreateTime.Format "2006-01-02_15:04:05"}}`. [Here](https://yourbasic.org/golang/format-parse-string-time-date-example/) you can find an overview of the possible formats.
+* `{{.Download.Type}}` video, gif, photo, etc.
+* `{{.Download.MimeType}}` The MimeType of the download (Example: `text/plain`)
+* `{{.Download.GroupId}}` Id of the object from where the download was obtained. For example, for post video downloads, it would be the id of the post.
+
+In addition, the path can be adjusted via functions. Functions change the output of variables. Available functions are:
+
+* Most [functions from sprig](http://masterminds.github.io/sprig/)
+* `cleanFilename` = Attempts to adapt a text so that it can be used as a file or folder name.
+  * `꧁༺✿ ᵈᵉᵛⁱˡ᭄𝒈𝒊𝒓𝒍࿐✿༻꧂ / Камыр` becomes `꧁༺✿ ᵈᵉᵛⁱˡ᭄𝒈𝒊𝒓𝒍࿐✿༻꧂-Камы`
+* `slug` = Converts the text to a slug
+  * `꧁༺✿ ᵈᵉᵛⁱˡ᭄𝒈𝒊𝒓𝒍࿐✿༻꧂ / Камыр` becomes `l-kamyr`
+* `toAscii` = Tries to convert the text to an ASCII string
+  * `꧁༺✿ ᵈᵉᵛⁱˡ᭄𝒈𝒊𝒓𝒍࿐✿༻꧂ / Камыр` becomes `[-] l[-]]-Kamyr`
+
 ### Authentication methods
 
 To download the files, the tool must be associated with a user. 
