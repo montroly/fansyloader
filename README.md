@@ -1,12 +1,13 @@
-# fansyloader
+# fansyloader / fancy loader
 
-fansyloader is a simple program that downloads content for active subscriptions from onlyfans and fansly.
+Download your content from Onlyfans and Fansly easily and quickly, without reading long installation instructions or making complicated configurations.
 
 ## Using
 
 1. Download the [last released version](https://github.com/montroly/fansyloader/releases)
 2. Unpack the download
-3. (Optional)
+3. Open a bash and navigate to the directory. (For Windows the use of the Powershell is recommended and the script `openshell.bat` is optional included to open the Powershell). 
+4. (Optional)
 
   ```bash
   ./fansyloader setup
