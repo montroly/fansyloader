@@ -18,3 +18,4 @@ Therefore, if you are willing to share your log file with me, you should encrypt
 ### Public keys
 
 * Age: `age14dfxpv8rzxr2mulmdv8zh3lxkj40jpu0n4j6flamdt330q5tefkqzsxdsj`
+* GPG: [gpg.asc](./gpg.asc)

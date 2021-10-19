@@ -1,4 +1,4 @@
-# fansyloader / fancy loader
+# fansyloader - The fancy loader
 
 Download your content from Onlyfans and Fansly easily and quickly, without reading long installation instructions or making complicated configurations.
 
