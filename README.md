@@ -7,13 +7,8 @@ Download your content from Onlyfans and Fansly easily and quickly, without readi
 1. Download the [last released version](https://github.com/montroly/fansyloader/releases)
 2. Unpack the download
 3. Open a bash and navigate to the directory. (For Windows the use of the Powershell is recommended and the script `openshell.bat` is optional included to open the Powershell). 
-4. (Optional)
-
-  ```bash
-  ./fansyloader setup
-  ```
-
-4. Start
+4. (Optional) `./fansyloader setup`
+5. Start
 
   ```bash
   ./fansyloader

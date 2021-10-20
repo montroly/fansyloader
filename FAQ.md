@@ -8,6 +8,18 @@ Nowhere. The source code is not public.
 
 No.
 
+#### How can I switch between Onlyfans and Fansly?
+
+You can set a default value in `config.toml` under `provider`. 
+Alternatively you can call fansyloader with flags
+
+```bash
+# For onlyfans
+./fansyloader --onlyfans
+# For fansly
+./fansylaoder --fansly
+```
+
 #### Why is something new not scrapped?
 
 Fansyloader remembers what it has already downloaded and skips it. 
@@ -34,9 +46,24 @@ Set in the configuration `[Download] enable_optimizations = false`
 
 The question is, when was the last time you watched 20 videos in parallel?
 
+#### How do I verify the GPG signature?
+
+Fansyloader signs all binaries with a [GPG key](https://keys.openpgp.org/search?q=montroly%40protonmail.com) to prevent against unwanted modification of binaries. 
+To validate the binary, download the signature file which ends in `.asc` for the binary you downloaded and use the gpg command line tool.
+
+```
+gpg --keyserver keys.openpgp.org --recv 6D7B6383B9212F1FA5E073D8D8D2D9BCE14926F5
+gpg --verify fansyloader-{{< version >}}.asc fansyloader-{{< version >}}
+``` 
+
+Look for the text `Good signature from "montroly <montroly@protonmail.com>"` to assert a good binary,
+despite warnings like `This key is not certified with a trusted signature!`.
+
 #### How do I know I can trust the program?
 
-Not at all, as usual. But you can check it with a virus scanner or online tool. You could monitor the network communication with Wireshark or something else. 
+Not at all, as usual. 
+But you can check it with a virus scanner or online tool. 
+You could monitor the network communication with Wireshark or something else. 
 
 I can tell you that the program does not do anything different from what I have stated here. - It downloads files.
 
