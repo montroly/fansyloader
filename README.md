@@ -8,7 +8,7 @@ without reading long installation instructions or making complicated configurati
 
 1. Download the [last released version](https://github.com/montroly/fansyloader/releases)
 2. Unpack the download
-3. Open a bash and navigate to the directory. (For Windows the use of the Powershell is recommended and the script `openshell.bat` is optional included to open the Powershell). 
+3. Open a bash and navigate to the directory. (For Windows the use of the Powershell is recommended). 
 4. (Optional) `./fansyloader setup`
 5. Start
 

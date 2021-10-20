@@ -17,7 +17,7 @@ Alternatively you can call fansyloader with flags
 # For onlyfans
 ./fansyloader --onlyfans
 # For fansly
-./fansylaoder --fansly
+./fansyloader --fansly
 ```
 
 #### Why is something new not scrapped?
