@@ -1,6 +1,8 @@
 # fansyloader - The fancy loader
 
-Download your content from Onlyfans and Fansly easily and quickly, without reading long installation instructions or making complicated configurations.
+Fansyloader tries to solve the problem that it seems to be difficult for most people to install the Python interpreter or use Github.
+For this Fansyloader allows you to download your content from Onlyfans and Fansly easily and quickly, 
+without reading long installation instructions or making complicated configurations.
 
 ## Using
 
@@ -17,16 +19,21 @@ Download your content from Onlyfans and Fansly easily and quickly, without readi
 **Credits:** This project would not have been possible without the work of @hippothon, @OFfriend and @DIGITALCRIMINAL (±S).
 They cleared many barriers during their work on [OnlyFans DataScraper](https://github.com/DIGITALCRIMINALS/OnlyFans).
 
+## Configuration
+
+Fansyloader creates a configuration directory at first startup, which contains a configuration file `config/config.toml`. 
+This file can be opened and modified with a text editor and contains an explanation for most parameters.
+
+More information can be [found here](./conf.md)
+
 ## Troubleshooting
 
 After the download is started, only the progress bars and no error messages are displayed. 
 So if there are problems, you should look into the log file in the `config` directory. 
 Alternatively, `show_progress_bar` can be set to `false` in the configuration file.
 
-## Doc
-
-* [FAQ](./FAQ.md)
-* [Configuration](./conf.md)
+More information can be found in the [FAQ](./FAQ.md).
+If you can't find a solution to your problem, open an issue and pay attention to [how to share data safely](secure_share.md).
 
 ## Enjoy what you see? 
 

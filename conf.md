@@ -4,6 +4,17 @@ fansyloader creates a folder `config` at the first start.
 In this folder you can find the configuration file `config.toml` and the log file `fansyloader.log`. 
 The configuration file can be opened and edited with any text editor.
 
+### Multiple configurations
+
+Fansyloader can also be started with a different configuration folder. 
+To do this, the `-c` flag can be used to specify another configuration order, which will be created if it does not already exist. 
+
+```bash
+# example
+./fansyloader -c account-1-config
+./fansyloader -c account-2-config
+```
+
 ### Path
 
 The path variable can be used to set the folders in which the files are stored.
