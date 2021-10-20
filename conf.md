@@ -7,7 +7,8 @@ The configuration file can be opened and edited with any text editor.
 ### Multiple configurations
 
 Fansyloader can also be started with a different configuration folder. 
-To do this, the `-c` flag can be used to specify another configuration order, which will be created if it does not already exist. 
+For this purpose the `-c` flag can be used to specify another directory from which the configuration should be loaded. 
+If the directory does not exist it will be created.
 
 ```bash
 # example
