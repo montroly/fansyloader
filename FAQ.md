@@ -46,6 +46,11 @@ Set in the configuration `[Download] enable_optimizations = false`
 
 The question is, when was the last time you watched 20 videos in parallel?
 
+#### Can I speed up the download?
+
+Yes, you can increase the `request_limit` value in the configuration or set it to `0` to disable the limit. 
+You can also use `max_downloads` to increase the number of simultaneous downloads.
+
 #### How do I verify the GPG signature?
 
 Fansyloader signs all binaries with a [GPG key](https://keys.openpgp.org/search?q=montroly%40protonmail.com) to prevent against unwanted modification of binaries. 
