@@ -4,6 +4,8 @@ Fansyloader tries to solve the problem that it seems to be difficult for most pe
 For this Fansyloader allows you to download your content from Onlyfans and Fansly easily and quickly, 
 without reading long installation instructions or making complicated configurations.
 
+Leave a star if you like it. 🌟
+
 ## Using
 
 1. Download the [last released version](https://github.com/montroly/fansyloader/releases)
