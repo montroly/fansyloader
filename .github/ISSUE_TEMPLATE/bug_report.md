@@ -21,8 +21,8 @@ A clear and concise description of what the bug is.
 Before reporting a bug, please check if you are using the **latest version**.
 
 **Desktop (please complete the following information):**
- - OS: [e.g. windows]
- - Browser [e.g. chrome, firefox]
+ - OS: [e.g. windows - without version]
+ - Browser [e.g. chrome, firefox - without version] 
  - Auth [e.g. default, sideloading, proxy] 
 
 <!--
