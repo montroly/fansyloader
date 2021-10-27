@@ -6,7 +6,15 @@ labels: ''
 assignees: ''
 ---
 
-<!-- !!! Please do not post any logs or extracts from the console !!! -->
+<!-- !!! 
+
+Attention, post here...
+
+* ... no excerpts from the console
+* ... no unencrypted logs
+* ... not with the same username as OF/Fansly
+
+!!! -->
 
 **Describe the bug**
 A clear and concise description of what the bug is.
